@@ -1,0 +1,17 @@
+{
+    "name": "logicempower/logicempower-plugin",
+    "description": "Logic Empower Custom Plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Henry Kozhaya",
+            "email": "h.kozhaya@logicempower.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"LogicInc\\": "./inc"}
+    }
+}
